@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <p><a class="volver__inicio" href="/">⬅️ Volver al inicio</a></p>
+
+    <div class="form__container">
+        <div class="container">
+            <h1 style="text-align: center; padding-top: 20px;">Formulario de Contacto</h1>
+            <form class="form" action="">
+                <label for="name">Nombre y Apellido:</label>
+                <input required placeholder="Carlos Acosta" type="text" name="name" id="name">
+    
+                <label for="email">Correo Eléctronico:</label>
+                <input required placeholder="carlos@hotmail.com" type="email" name="email" id="email">
+    
+                <label for="tel">Celular:</label>
+                <input type="tel" placeholder="123456789" name="tel" id="tel" maxlength="10">
+    
+                <label for="password">Contraseña:</label>
+                <input required placeholder="Contraseña" type="password" name="password" id="password" minlength="8" maxlength="18">
+    
+                <label for="mss">Mensaje:</label>
+                <textarea required placeholder="Deja tu mensaje aquí" name="mss" id="mss" maxlength="60" minlength="10"></textarea>
+    
+                <label for="country">País:</label>
+                <select name="country" id="country">
+                    <option disabled selected>Selecciona</option>
+                    <option value="co">Colombia</option>
+                    <option value="vl">Venezuela</option>
+                    <option value="br">Brasil</option>
+                    <option value="ar">Argentina</option>
+                </select>
+    
+                <input class="btn" type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <h2>Contacto</h2>
+        <p><b>Correo:</b> <a style="text-decoration: none; color: #1f1f1f;" href="mailto:carlos.acosta.ttc.474@unilibre.edu.co">carlos.acosta.ttc.474@unilibre.edu.co</a></p>
+        <p><b>Teléfono:</b> 300 7410161</p>
+        <p><b>Página Web:</b> <a style="text-decoration: none; color: #1f1f1f;" href="#">Visítame</a></p>
+    </footer>
+</body>
+</html>

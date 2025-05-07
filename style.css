@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Geist;
+    src: url('./fonts/Geist-Regular.ttf');
+}
+
+@font-face {
+    font-family: Geist-Bold;
+    src: url('./fonts/Geist-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #acacac;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 40px;
+    background-color: #fafafa;
+    color: #1f1f1f;
+    font-family: Geist;
+}
+
+h1, h2, h3, h4 {
+    font-family: Geist-Bold;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    transition: ease .4s;
+}
+
+img:hover {
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+.titulo {
+    text-align: center;
+    transition: ease .4s;
+}
+
+.titulo:hover {
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+dt {
+    margin-bottom: 10px;
+}
+
+dd {
+    margin-bottom: 8px;
+}
+
+table {
+    font-family: Geist;
+    width: 700px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 35px;
+}
+
+.idiomas > th {
+    color: #1f1f1f;
+    background-color: #a3fffe;
+    text-transform: uppercase;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+td {
+    background-color: #ffffe3;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    border-radius: 25px;
+    background-color: #acacac;
+    width: 96%;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.contact {
+    text-decoration: none;
+    color:#1f1f1f;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+
+/* Formulario */
+.volver__inicio {
+    text-decoration: none; 
+    color: #1f1f1f;
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    border-radius: 12px;
+    background-color: #acacac;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+label {
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.form > input {
+    font-family: Geist;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #1f1f1f;
+    margin-bottom: 8px;
+}
+
+input::placeholder {
+    font-family: Geist;
+    font-size: 14px;
+    padding: 2px 0 0 0;
+}
+
+.form > input:focus {
+    outline: 1px solid #1f1f1f;
+    box-shadow: 0 0 10px 0;
+}
+
+.form > textarea {
+    font-family: Geist;
+    resize: vertical;
+    border-radius: 5px;
+    border: 1px solid #1f1f1f;
+    margin-bottom: 8px;
+}
+
+textarea::placeholder {
+    font-family: Geist;
+    font-size: 14px;
+    padding: 2px 0 0 4px;
+}
+
+.form > textarea:focus {
+    outline: 1px solid #1f1f1f;
+    box-shadow: 0 0 10px 0;
+}
+
+.form > select {
+    font-family: Geist;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #1f1f1f;
+}
+
+.form > select:focus {
+    outline: 1px solid #1f1f1f;
+    box-shadow: 0 0 10px 0;
+}
+
+option {
+    font-family: Geist;
+}
+
+.btn {
+    margin-top: 20px;
+    cursor: pointer;
+    transition: opacity ease-in-out .15s;
+}
+
+.btn:hover {
+    opacity: .7;
+}
