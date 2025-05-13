@@ -1,15 +1,6 @@
-@font-face {
-    font-family: Geist;
-    src: url('./fonts/Geist-Regular.ttf');
-}
-
-@font-face {
-    font-family: Geist-Bold;
-    src: url('./fonts/Geist-Bold.ttf');
-}
-
 * {
     box-sizing: border-box;
+    font-family: Geist;
 }
 
 header {
@@ -27,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: Geist-Bold;
+    font-family: Geist;
 }
 
 img {
