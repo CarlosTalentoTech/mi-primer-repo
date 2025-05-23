@@ -24,15 +24,16 @@ header {
     gap: 20px;
     font-size: 16px;
     font-weight: 500;
+    padding-left: 0;
 }
 
-a {
+.link {
     text-decoration: none;
     color: #1f1f1f;
     transition: opacity .15s ease-in-out;
 }
 
-a:hover {
+.link:hover {
     opacity: .5;
 }
 
@@ -123,7 +124,7 @@ footer {
 }
 
 .contact:hover {
-    opacity: .5;
+    cursor: pointer;
 }
 
 
